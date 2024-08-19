@@ -39,4 +39,4 @@ This project is a CMS-style blog site built for developers to publish their blog
 
 ![Screenshot of the blog site](screenshot.png)
 
-[Visit the Blog Site](https://example.com)
+[Visit the Blog Site](https://danie1nunez.github.io/techBlog/)
