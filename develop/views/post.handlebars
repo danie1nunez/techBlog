@@ -1,5 +1,20 @@
-<div class="text-center">
-  <h2>{{name}}</h2>
-  <p>{{description}}</p>
+<div class="comment text-center">
+  <h2 data-postid="{{id}}" id="title">{{name}}</h2>
+  <p>{{user.description}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  <div class="text-center">
+    <button class="btn" id="showButton">Add Comment</button>
+    <div class="cmt">
+      <input type="text" id="textBox" placeholder="Enter text here">
+      <button class="btn" type="submit" id="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="postedcomment">
+      {{#each comments as |comment|}}
+      {{> comments}}
+      {{/each}}
+    </div>
+  </div>
 </div>
+
+<script src="/js/comment.js"></script>
+

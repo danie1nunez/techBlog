@@ -56,3 +56,56 @@ body {
   font-size: 1.55rem;
   text-decoration: none;
 }
+
+.cmt{
+  display: none;
+
+}
+
+.postedcomment{
+  background-color: #c7cfdc; 
+  border-radius: 8px;     
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;          
+  margin: 20px auto;      
+  width: 50dvw;       
+  font-family: Arial, sans-serif; 
+}
+
+#user{
+  font-size: 1.5rem;     
+  margin-bottom: 10px;    
+  color: #333;            
+}
+
+
+.commentdiv{
+  border: solid 3px rgb(46, 60, 84);  
+  border-radius: 4px;     
+  color: #555;            
+  line-height: 1.6;
+  margin: 5%;
+}
+
+
+#textBox{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+#showButton{
+  width: 200px;
+  margin-bottom: 20px;
+}
+.comment{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
